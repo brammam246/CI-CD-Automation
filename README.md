@@ -33,10 +33,10 @@ Steps:
 
 8.Monitoring and Logging: Implement basic monitoring and logging for your deployed application. This involve using tools like Prometheus for monitoring and ELK (Elasticsearch, Logstash, Kibana) stack for logging.
 
-Skills Demonstrated:
-Version control using Git.
-Build automation and scripting.
-Test automation.
-Continuous integration and continuous deployment (CI/CD).
-Familiarity with CI/CD tools (Jenkins).
-Monitoring and logging implementation.
+1.Skills Demonstrated:
+2.Version control using Git.
+3.Build automation and scripting.
+4.Test automation.
+5.Continuous integration and continuous deployment (CI/CD).
+6.Familiarity with CI/CD tools (Jenkins).
+7.Monitoring and logging implementation.
