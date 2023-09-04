@@ -31,8 +31,15 @@ public class FirstTest {
         drive.switchTo().defaultContext();
         //to find the hight and the width of the window
         driver.manage().window().getSize().getWidth();
-        driver.manage().window().getSize().getWidth();
-
+        driver.manage().window().getSize().getWidth
+        //to run/use js in java
+        JavascriptExecutor js = (JavascriptExecutor)driver;
+            // to run js
+        //WebElement button = driver.findElement(By.name("button name"));
+        //js.executeScript("argumetns[0].click();", button);
+            //execute js directly
+        //js.executeScript("comsole.log('hello veera'));  //use can seethe hello veera in 'console'
+        
         Thread.sleep(6000);
         driver.close();
         
