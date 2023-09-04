@@ -26,6 +26,8 @@ public class FirstTest {
         driver.git("https://www.tooplate.com/view/2137-barista-cafe")
         System.out.println("Title of the page is: " + driver.getTitle());
         Assert.assertTrue("Page title is not correct",driver.getTitle().equals("Google"));
+        //to go back to the main page 
+        drive.switchTo().defaultContext();
     }
 
 
